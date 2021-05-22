@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-22T05:53:50.847Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="-g1q7PeRGovJbkJzMdob" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-22T13:59:58.749Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="oauCOKduKi21xWCUzDII" version="14.6.13" type="github">
   <diagram id="XVIkT2zcZYyQROvyXXck" name="Page-1">
-    <mxGraphModel dx="684" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -141,6 +141,34 @@
               <mxPoint x="745" y="700" />
               <mxPoint x="755" y="750" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oexXOZvehWeUb7vfYz6k-41" value="Firewall for wireless" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/firewall.svg;" vertex="1" parent="1">
+          <mxGeometry x="170" y="428.03" width="50" height="81.97" as="geometry" />
+        </mxCell>
+        <mxCell id="oexXOZvehWeUb7vfYz6k-46" value="" style="curved=1;endArrow=classic;html=1;exitX=1.06;exitY=0.622;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="oexXOZvehWeUb7vfYz6k-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="510" as="sourcePoint" />
+            <mxPoint x="510" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="510" />
+              <mxPoint x="270" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oexXOZvehWeUb7vfYz6k-47" value="Wireless&lt;br&gt;Access&lt;br&gt;Point" style="points=[[0.03,0.36,0],[0.18,0,0],[0.5,0.34,0],[0.82,0,0],[0.97,0.36,0],[1,0.67,0],[0.975,0.975,0],[0.5,1,0],[0.025,0.975,0],[0,0.67,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.wireless_access_point;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="438.5" width="61.5" height="61.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oexXOZvehWeUb7vfYz6k-48" value="" style="endArrow=none;html=1;exitX=1;exitY=0.67;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="oexXOZvehWeUb7vfYz6k-47" target="oexXOZvehWeUb7vfYz6k-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="510" as="sourcePoint" />
+            <mxPoint x="150" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oexXOZvehWeUb7vfYz6k-49" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="oexXOZvehWeUb7vfYz6k-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="470" as="sourcePoint" />
+            <mxPoint x="430" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
