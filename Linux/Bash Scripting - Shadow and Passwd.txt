@@ -1,0 +1,14 @@
+#!/bin/bash 
+
+file=('/etc/shadow' '/etc/passwd')
+
+for x in ${file[@]};
+do
+ls -la $x
+done
+
+for u in $(ls /home);
+do
+   sudo -l -U $u  #for item in $(sudo -l -U $u);
+
+done

@@ -1,0 +1,17 @@
+#!/bin/bash
+width=72
+for i in ${0}; do 
+      #do
+      lines="$(wc -l < $1 | sed 's/ //g')"
+      chars="$(wc -c < $1 | sed 's/ //g')"
+      owner="$(ls -ld $1 | awk '{print $3}')"
+      echo "-----------------------------------------------------------------"
+      echo "File $1 ($lines lines, $chars characters, owned by $owner):"
+      echo -e "-----------------------------------------------------------------\n"
+      file=$(cat /var/tmp/5galf)
+            if [ ${#file} -gt $width ]
+            then
+            echo "$file" | fmt | sed -e '$s/^/  /' -e '2,$s/^/+ /'
+            else
+            echo "  $file"
+            fi
