@@ -1,1 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2021-08-04T02:40:46.042Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.115 Safari/537.36" version="14.8.5" etag="it6sKtZIYPE3RkTQkGe9" type="github"><diagram id="QJteATqqbNWgX1ASDVQv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-04T03:09:08.818Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.115 Safari/537.36" etag="xaC2yFPVQa0P9EGPUAB2" version="14.8.5" type="github">
+  <diagram id="QJteATqqbNWgX1ASDVQv" name="Page-1">
+    <mxGraphModel dx="1422" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KM3AbbD1cgq_AYQMPSmJ-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="30" width="740" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="KM3AbbD1cgq_AYQMPSmJ-1" value="Attacker" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="210" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KM3AbbD1cgq_AYQMPSmJ-22" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="70" width="570" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="KM3AbbD1cgq_AYQMPSmJ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KM3AbbD1cgq_AYQMPSmJ-2" target="KM3AbbD1cgq_AYQMPSmJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KM3AbbD1cgq_AYQMPSmJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KM3AbbD1cgq_AYQMPSmJ-2" target="KM3AbbD1cgq_AYQMPSmJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KM3AbbD1cgq_AYQMPSmJ-2" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="110" y="219.63" width="80.56" height="50.75" as="geometry" />
+        </mxCell>
+        <mxCell id="KM3AbbD1cgq_AYQMPSmJ-6" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Azure Virtual Machine - Final Project&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="690" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KM3AbbD1cgq_AYQMPSmJ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KM3AbbD1cgq_AYQMPSmJ-17" target="KM3AbbD1cgq_AYQMPSmJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KM3AbbD1cgq_AYQMPSmJ-17" value="Kali&lt;br&gt;192.168.1.90" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" vertex="1" parent="1">
+          <mxGeometry x="392.19" y="285" width="107.81" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KM3AbbD1cgq_AYQMPSmJ-21" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="228" y="374" as="sourcePoint" />
+            <mxPoint x="278" y="324" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KM3AbbD1cgq_AYQMPSmJ-24" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="370" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="KM3AbbD1cgq_AYQMPSmJ-7" value="Hypervisor Gateway&lt;br&gt;192.168.1.1" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.hyper_v_host;" vertex="1" parent="1">
+          <mxGeometry x="250" y="290" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KM3AbbD1cgq_AYQMPSmJ-23" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Network Subnet 192.168.1.0/24&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="650" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KM3AbbD1cgq_AYQMPSmJ-19" value="Target 1&lt;br&gt;192.168.1.110" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" vertex="1" parent="1">
+          <mxGeometry x="580" y="290" width="107.81" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KM3AbbD1cgq_AYQMPSmJ-18" value="Target 2&lt;br&gt;192.168.1.115" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" vertex="1" parent="1">
+          <mxGeometry x="740" y="290" width="107.81" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KM3AbbD1cgq_AYQMPSmJ-25" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;ELK Monitoring&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="570" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KM3AbbD1cgq_AYQMPSmJ-26" value="Kibana&lt;br&gt;192.168.1.110" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/kibana-128.png" vertex="1" parent="1">
+          <mxGeometry x="990" y="295" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KM3AbbD1cgq_AYQMPSmJ-36" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KM3AbbD1cgq_AYQMPSmJ-27" target="KM3AbbD1cgq_AYQMPSmJ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KM3AbbD1cgq_AYQMPSmJ-27" value="ELK/Elastic Search&lt;br&gt;192.168.1.110" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elasticsearch_service;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="110" width="67.5" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="KM3AbbD1cgq_AYQMPSmJ-32" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="1" source="KM3AbbD1cgq_AYQMPSmJ-17" target="KM3AbbD1cgq_AYQMPSmJ-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KM3AbbD1cgq_AYQMPSmJ-34" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="1" source="KM3AbbD1cgq_AYQMPSmJ-17" target="KM3AbbD1cgq_AYQMPSmJ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
