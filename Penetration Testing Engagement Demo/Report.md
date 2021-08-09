@@ -22,7 +22,9 @@ The internal penetration test found several alarming vulnerabilities on Hans’ 
 2.	Findings
 
 Machine IP: 192.168.0.20
+
 Hostname: MSEDGEWIN10
+
 Vulnerability Exploited: Icecast is the vulnerability that has been found. I used Metasploit – a tool suite for hacking servers and other networked devices to identify this vulnerability. MSFconsole is the main interface of this tool suite. The command to launch Metasploit on Kali is ‘msfconsole’ or ‘msfdb run’. ‘Search Icecast’ allowed me to look for all the modules related to this vulnerability. As shown in the screenshot below, exploit is the only module. The exploit module is generally used to deliver exploit code to a target system. 
 
 ![image](https://user-images.githubusercontent.com/78771318/128652452-1e580d38-05d7-4890-8835-730e2146adbb.png)
