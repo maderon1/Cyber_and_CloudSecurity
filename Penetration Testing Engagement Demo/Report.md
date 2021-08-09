@@ -1,4 +1,5 @@
 Penetration Testing Engagement
+
 In this engagement, I will play the role of an independent penetration tester hired by GoodCorp Inc. to perform security tests against their CEO’s workstation.
 
 Scenario:  
